@@ -1,0 +1,9 @@
+.linkrow{
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    display: flex;
+}
+
+.linkitem{
+    width: 50px;
+}
