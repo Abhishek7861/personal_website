@@ -1,10 +1,10 @@
 import React from 'react';
 import './BannerSubheading.css';
 
-export default function BannerSubheading() {
+export default function BannerSubheading({display_message}) {
   return (
     <div className='banner-subheading'>
-        <p>I am a skilled and passionate web developer. Welcome to my webpage.</p>
+        <p>{display_message}</p>
     </div>
   )
 }
