@@ -3,10 +3,12 @@ import Banner from '../../components/Banner/Banner'
 import BannerSubheading from '../../components/BannerSubHeading/BannerSubheading';
 import Line from '../../components/Line/Line';
 import LinkRow from '../../components/LinkRow/LinkRow';
+import Quote from '../../components/Quote/Quote';
+import ButtonBar from '../../components/ButtonBar/ButtonBar';
 
 export default function home() {
   const display_heading = "Hey, I'm Abhishek Singh";
-  const display_subheading = "I am a skilled and passionate web developer. Welcome to my humble page.";
+  const display_subheading = "I am a passionate and skilled web developer. Welcome to my humble page.";
   const links = [{ href: "https://www.linkedin.com/in/abhishek-singh-10b5951a2/", icon: "fab fa-linkedin", title : "linkedIn" },
   { href: "mailto:abhishek82786@gmail.com", icon: "fas fa-envelope",title : "mail" },
   { href: "https://leetcode.com/Abhi7861/", icon: "fas fa-code", title : "leetcode" },
@@ -18,6 +20,9 @@ export default function home() {
       <BannerSubheading display_message={display_subheading}></BannerSubheading>
       <Line></Line>
       <LinkRow links={links}></LinkRow>
+      <Line></Line>
+      <Quote></Quote>
+      <ButtonBar></ButtonBar>
     </div>
   )
 }

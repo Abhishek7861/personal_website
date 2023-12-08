@@ -1,0 +1,23 @@
+.button-row{
+    margin-top: 100px;
+    justify-content: center; /* Center horizontally */
+    display: flex;
+}
+
+
+.home-button{
+    width: 250px;
+    font-size: large;
+    padding: 10px;
+    margin: 2px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.home-button:hover{
+    background-color: lightgray;
+    color: black;
+}
