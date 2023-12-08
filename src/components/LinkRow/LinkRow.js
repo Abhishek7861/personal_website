@@ -8,7 +8,8 @@ export default function LinkRow({ links }) {
             {links.map((item, index) => (
                 <div className='linkitem'>
                     <a href={item.href} target="_blank" rel="noopener noreferrer">
-                        <i className={item.icon} title={item.title}></i></a>
+                        <span class="icon"><i className={item.icon} title={item.title}></i></span>
+                    </a>
                 </div>
             ))}
         </div>
