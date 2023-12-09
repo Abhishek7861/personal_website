@@ -2,6 +2,8 @@
     margin-top: 100px;
     justify-content: center; /* Center horizontally */
     display: flex;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 

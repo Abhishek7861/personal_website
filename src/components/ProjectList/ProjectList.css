@@ -1,0 +1,11 @@
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+    gap: 10px; /* Adjust the gap between grid items */
+    margin: 30px auto; /* Center the grid horizontally */
+    max-width: 80%;
+  }
+
+.project-title{
+    margin-left: 150px;
+}

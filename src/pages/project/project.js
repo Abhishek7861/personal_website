@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import NavBar from '../../components/NavBar/NavBar';
+import ProjectList from '../../components/ProjectList/ProjectList';
 
 export default function project() {
   return (
     <div>
-      <h1>Project</h1>
+      <NavBar></NavBar>
+      <ProjectList></ProjectList>
     </div>
   )
 }
