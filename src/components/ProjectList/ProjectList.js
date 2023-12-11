@@ -1,20 +1,29 @@
 import React from 'react';
 import './ProjectList.css';
+import ProjectCard from '../ProjectCard/ProjectCard';
 
 export default function ProjectList() {
+  const projects = [
+    { title: "Url Shortner", TechStack: ["Java", "Spring", "HTML", "CSS", "JS", "MongoDB"], Link: "localhost:8080", about: "about project" },
+    { title: "Url Shortner", TechStack: ["Java", "Spring", "HTML", "CSS", "JS", "MongoDB"], Link: "localhost:8080", about: "about project" },
+    { title: "Url Shortner", TechStack: ["Java", "Spring", "HTML", "CSS", "JS", "MongoDB"], Link: "localhost:8080", about: "about project" },
+    { title: "Url Shortner", TechStack: ["Java", "Spring", "HTML", "CSS", "JS", "MongoDB"], Link: "localhost:8080", about: "about project" },
+    { title: "Url Shortner", TechStack: ["Java", "Spring", "HTML", "CSS", "JS", "MongoDB"], Link: "localhost:8080", about: "about project" },
+    { title: "Url Shortner", TechStack: ["Java", "Spring", "HTML", "CSS", "JS", "MongoDB"], Link: "localhost:8080", about: "about project" },
+    { title: "Url Shortner", TechStack: ["Java", "Spring", "HTML", "CSS", "JS", "MongoDB"], Link: "localhost:8080", about: "about project" },
+    { title: "Url Shortner", TechStack: ["Java", "Spring", "HTML", "CSS", "JS", "MongoDB"], Link: "localhost:8080", about: "about project" },
+    { title: "Url Shortner", TechStack: ["Java", "Spring", "HTML", "CSS", "JS", "MongoDB"], Link: "localhost:8080", about: "about project" },
+    { title: "Url Shortner", TechStack: ["Java", "Spring", "HTML", "CSS", "JS", "MongoDB"], Link: "localhost:8080", about: "about project" },
+    { title: "Url Shortner", TechStack: ["Java", "Spring", "HTML", "CSS", "JS", "MongoDB"], Link: "localhost:8080", about: "about project" }]
   return (
     <div>
       <div class="project-title"><h2>My Projects</h2></div>
       <div class="project-grid">
-        <div>Project 1</div>
-        <div>Project 2</div>
-        <div>Project 3</div>
-        <div>Project 4</div>
-        <div>Project 5</div>
-        <div>Project 6</div>
-        <div>Project 7</div>
-        <div>Project 8</div>
-        <div>Project 9</div>
+        {projects.map((project, index) => (
+          <div key={index}>
+              <ProjectCard project={project}></ProjectCard>
+          </div>
+        ))}
       </div>
     </div>
   )

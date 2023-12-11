@@ -9,7 +9,7 @@ export default function ButtonBar() {
             {buttons.map((item, index) => (
                 <div className='button-item'>
                     <Link to={"/project"}>
-                        <button className='home-button'>{item}</button>
+                        <button key={index} className='home-button'>{item}</button>
                     </Link>
                 </div>
             ))}
