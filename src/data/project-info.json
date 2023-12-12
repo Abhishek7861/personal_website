@@ -1,0 +1,69 @@
+{
+    "projects": [
+        {
+            "title": "OLDEX - Buy and Sell Online",
+            "techStack": [
+                "Java",
+                "Spring",
+                "HTML",
+                "CSS",
+                "JS",
+                "PostgreSQL"
+            ],
+            "link": "localhost:8080",
+            "about": "Developed a web-based service that allow a person to buy and sell products online by posting advertisements."
+        },
+        {
+            "title": "ProcureBy",
+            "techStack": [
+                "Java",
+                "Spring",
+                "HTML",
+                "CSS",
+                "JS",
+                "MongoDB"
+            ],
+            "link": "localhost:8080",
+            "about": "Accomplished a web-based blood procurement service that allows a person to find blood donors using a zip code."
+        },
+        {
+            "title": "Url Shortner",
+            "techStack": [
+                "Java",
+                "Spring",
+                "HTML",
+                "CSS",
+                "JS",
+                "MongoDB"
+            ],
+            "link": "localhost:8080",
+            "about": "You can short your url here and generate their QR code to share them with others"
+        },
+        {
+            "title": "Algo Trader",
+            "techStack": [
+                "Java",
+                "Spring",
+                "HTML",
+                "CSS",
+                "JS",
+                "MongoDB"
+            ],
+            "link": "localhost:8080",
+            "about": "about project"
+        },
+        {
+            "title": "Portfolio Website",
+            "techStack": [
+                "Java",
+                "Spring",
+                "HTML",
+                "CSS",
+                "JS",
+                "MongoDB"
+            ],
+            "link": "localhost:8080",
+            "about": "Displays my skills, experience and projects"
+        }
+    ]
+}
