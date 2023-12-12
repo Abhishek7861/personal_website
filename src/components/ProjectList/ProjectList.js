@@ -1,6 +1,7 @@
 import React from 'react';
 import './ProjectList.css';
 import ProjectCard from '../ProjectCard/ProjectCard';
+import myData from '../../data/project-info.json';
 
 export default function ProjectList() {
   const projects = [
@@ -19,7 +20,7 @@ export default function ProjectList() {
     <div>
       <div class="project-title"><h2>My Projects</h2></div>
       <div class="project-grid">
-        {projects.map((project, index) => (
+        {myData.projects.map((project, index) => (
           <div key={index}>
               <ProjectCard project={project}></ProjectCard>
           </div>
