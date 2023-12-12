@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default function NavBar() {
     const pages = [{ name: "Project", url: "/project" },
      { name: "Experience", url: "/experience" },
-      { name: "Hobbies", url: "/hobbies" },
+    //   { name: "Hobbies", url: "/hobbies" },
        { name: "Skills", url: "/skills" }];
     return (
         <div className='navbar'>

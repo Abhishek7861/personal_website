@@ -2,6 +2,7 @@
     border: 2px solid gray;
     padding: 20px;
     border-radius: 20px;
+    height: 225px;
     box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
 }
 
@@ -16,4 +17,24 @@
     border-radius: 5px;
     color: white;
     cursor:pointer;
+}
+
+.demo-button{
+    background-color: yellowgreen;
+    border: 2px solid yellowgreen;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    cursor:pointer;
+    margin-left: 40px;
+}
+
+.github-button{
+    background-color: gray;
+    border: 2px solid gray;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    cursor:pointer;
+    margin-left: 40px;
 }

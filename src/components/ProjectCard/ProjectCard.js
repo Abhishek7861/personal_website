@@ -9,6 +9,8 @@ export default function ProjectCard({project}) {
             <p><strong>Link:</strong> {project.link}</p>
             <p><strong>About:</strong> {project.about}</p>
             <button className='project-button'>More Info</button>
+            <button className='demo-button'>Demo</button>
+            <button className='github-button'>github</button>
     </div>
   )
 }
