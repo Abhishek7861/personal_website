@@ -2,6 +2,7 @@
     border: 2px solid gray;
     padding: 20px;
     border-radius: 20px;
+    width: 350px;
     height: 225px;
     box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
 }
@@ -26,7 +27,7 @@
     border-radius: 5px;
     color: white;
     cursor:pointer;
-    margin-left: 40px;
+    margin-left: 5px;
 }
 
 .github-button{
@@ -36,5 +37,5 @@
     border-radius: 5px;
     color: white;
     cursor:pointer;
-    margin-left: 40px;
+    margin-left: 5px;
 }
