@@ -4,18 +4,6 @@ import ProjectCard from '../ProjectCard/ProjectCard';
 import myData from '../../data/project-info.json';
 
 export default function ProjectList() {
-  const projects = [
-    { title: "Url Shortner", TechStack: ["Java", "Spring", "HTML", "CSS", "JS", "MongoDB"], Link: "localhost:8080", about: "about project" },
-    { title: "Url Shortner", TechStack: ["Java", "Spring", "HTML", "CSS", "JS", "MongoDB"], Link: "localhost:8080", about: "about project" },
-    { title: "Url Shortner", TechStack: ["Java", "Spring", "HTML", "CSS", "JS", "MongoDB"], Link: "localhost:8080", about: "about project" },
-    { title: "Url Shortner", TechStack: ["Java", "Spring", "HTML", "CSS", "JS", "MongoDB"], Link: "localhost:8080", about: "about project" },
-    { title: "Url Shortner", TechStack: ["Java", "Spring", "HTML", "CSS", "JS", "MongoDB"], Link: "localhost:8080", about: "about project" },
-    { title: "Url Shortner", TechStack: ["Java", "Spring", "HTML", "CSS", "JS", "MongoDB"], Link: "localhost:8080", about: "about project" },
-    { title: "Url Shortner", TechStack: ["Java", "Spring", "HTML", "CSS", "JS", "MongoDB"], Link: "localhost:8080", about: "about project" },
-    { title: "Url Shortner", TechStack: ["Java", "Spring", "HTML", "CSS", "JS", "MongoDB"], Link: "localhost:8080", about: "about project" },
-    { title: "Url Shortner", TechStack: ["Java", "Spring", "HTML", "CSS", "JS", "MongoDB"], Link: "localhost:8080", about: "about project" },
-    { title: "Url Shortner", TechStack: ["Java", "Spring", "HTML", "CSS", "JS", "MongoDB"], Link: "localhost:8080", about: "about project" },
-    { title: "Url Shortner", TechStack: ["Java", "Spring", "HTML", "CSS", "JS", "MongoDB"], Link: "localhost:8080", about: "about project" }]
   return (
     <div>
       <div class="project-title"><h2>My Projects</h2></div>
