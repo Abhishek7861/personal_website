@@ -1,0 +1,16 @@
+@media (max-width: 650px) {
+    /* Styles for screens less than 300 pixels */
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navbar-title{
+        font-size: medium;
+        width: 100%;
+    }
+    .navbar-navigation{
+        position: relative;
+        display: flex;
+    }
+  }
